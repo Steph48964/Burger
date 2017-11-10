@@ -1,0 +1,41 @@
+body {
+    background-color: #F9E79F;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.panel-menu {
+    float: left;
+    width: 50%;
+}
+
+.panel-devoured {
+    float: left;
+    width: 50%;
+}
+
+.form-add-burger input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: white;
+  list-style:none;
+  width: 300px;
+  font-family: Courier New, Courier, monospace;
+  text-align: left
+}
