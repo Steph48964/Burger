@@ -9,6 +9,7 @@ var burger = {
     },
 
     insertOne: function(cols, vals, cb) {
+        console.log('orm.vals', vals, 'orm.cb', cb);
         orm.insertOne("burgers", cols, vals, function(res) {
             cb(res);
         });
